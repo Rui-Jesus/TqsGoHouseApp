@@ -84,10 +84,10 @@ public class PropertyActivity extends MainActivity {
         DataHolder data = DataHolder.getInstance();
         int convertedRate = Math.round(rate);
         Log.println(Log.INFO, "PROPERTY", "Property id: " + property.getId() +  " Property rate: " + convertedRate + " User id: " + data.getId());
-        postRate(property.getId(), 4, 2);
+        postRate(property.getId(), convertedRate, data.getId());
         data.removeProperty(property.getId());
-        //Intent intent = new Intent(this, MainActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 
