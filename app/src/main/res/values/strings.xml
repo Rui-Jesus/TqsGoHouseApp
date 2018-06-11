@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TqsGoHouseApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_property">PropertyActivity</string>
+    <string name="title_activity_properties_menu">PropertiesMenu</string>
+</resources>
